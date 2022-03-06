@@ -8,9 +8,20 @@ if a=="是":
     if m=="114514":
         print("蝌粉,欢迎登录\n================\n您现在在大厅\n================\na=进入_蝌蚪SeaDream_的放映厅\nb=注销")
         menu=input("您现在想做什么？")
-        if menu=="a":                                           print("放映厅正在播放_蝌蚪SeaDream_的>《论史蒂夫的重量》快去看看吧！https://b23.tv/gZLM6es\na=返回大厅\nb=注销\nc=点赞\nd=投币\ne=收藏\nf=打赏")
-              menu=input("您现在想做什么？")
-              if menu=
+        if menu=="a":                                            print("放映厅正在播放_蝌蚪SeaDream_的>《论史蒂夫的重量》快去看看吧！https://b23.tv/gZLM6es\na=返回大厅\nb=注销\nc=点赞\nd=投币\ne=收藏\nf=打赏")      
+        menu=input("您现在想做什么？")
+        if menu=="a":
+            print("您已返回大厅！")
+        if menu=="c":
+            print("点赞成功！")
+        if menu=="d":
+            print("投币成功！余额：∞")
+        if menu=="e":
+            print("收藏成功！")
+        if menu=="f" and g>=18:
+            print("打赏成功！余额：∞")
+        if menu=="f" and g<18:
+            print("未成年人不允许打赏哦！")
         if menu=="b":                                           print("您已离开蝌粉俱乐部！")
     else:
         print("验证码错误，系统退出")
