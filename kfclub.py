@@ -1,5 +1,11 @@
 import sys
 import time as t
+import os
+os=os.path.exists("邀请函.txt")
+if os==False:
+    print("您没有邀请函哦！请到Gitee或Github下载！请把邀请函.txt放在同目录下！\nGithub：https://github.com/buxiuzhixing/Tada-Power-Club\nGitee：https://gitee.com/seedream7649/tada-powder-club\n如果是程序问题，请把本Python程序第5～8行删除")
+    t.sleep(10)
+    sys.exit()
 print("欢迎来到蝌粉俱乐部！\n请输入用户名与密码,账号不存在将自动创建")
 y=input("用户名：")
 p=input("密码：")
@@ -75,6 +81,7 @@ if yzm==114514:
     print("蝌粉,欢迎登录\n================\n您现在在大厅\n================\na=进入_蝌蚪SeaDream_的放映厅\nb=注销\nc=留在大厅")
     menu=input("您现在想做什么？")
     if menu=="a":
+        t.sleep(1)
         print("========\n放映厅正在播放_蝌蚪SeaDream_的《论史蒂夫的重量》快去看看吧！https://b23.tv/gZLM6es\na=返回大厅\nb=注销\nc=点赞\nd=投币\ne=收藏\nf=打赏")
         while True:
             menu=input("您现在想做什么？")
