@@ -1,2 +1,2 @@
 # Tada-Power-Club
-When bored, self-made word games, updated once a week,don't like do not spray!
+When bored, self-made word games,don't like do not spray!
